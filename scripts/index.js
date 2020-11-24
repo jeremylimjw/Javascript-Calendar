@@ -61,7 +61,7 @@ constructCell = (date) => {
 	var today = new Date()
 
 	if (date.toDateString() == today.toDateString()) {
-		var str = "<td data-value='" + date + "'><div class='day today'>" + date.getDate() + "</div></td>"
+		var str = "<td data-value='" + date + "'><div class='day today'>" + date.getDate() + "</div><div class='calendar-label'>Do work</div></td>"
 	} else if (date.getMonth() === calendar_selected_date.getMonth()) {
 		var str = "<td data-value='" + date + "'><div class='day'>" + date.getDate() + "</div></td>"
 	} else {

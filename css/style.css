@@ -78,3 +78,12 @@
     background-color:#007FFF;
     color:white;
 }
+
+#calendar .calendar-label {
+    background-color: #619bff;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding:0px 10px 0px 10px;
+}
